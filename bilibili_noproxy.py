@@ -9,15 +9,15 @@ import os
 
 
 
-bvids = []
+bvids = ["BV1cxxQeMEHz","BV1Xhx1ezEad","BV1gZ1BYmEKM","BV1sRsaeXEdr","BV1E6HheYEvC","BV1CfCQYiEk1"]
 
-bvids_bilibili = os.getenv("bvids_bilibili")
-bvids_bilibili = bvids_bilibili.replace('"','')
+# bvids_bilibili = os.getenv("bvids_bilibili")
+# bvids_bilibili = bvids_bilibili.replace('"','')
 
-if bvids_bilibili :
-    new_bvids = bvids_bilibili.split(",")
-    bvids.extend(new_bvids)
-    print(bvids)
+# if bvids_bilibili :
+#     new_bvids = bvids_bilibili.split(",")
+#     bvids.extend(new_bvids)
+#     print(bvids)
     
 def print_log(msg):
     # 直接print()在Docker中不会显示, 所以要家flush=True
