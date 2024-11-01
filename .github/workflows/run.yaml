@@ -2,11 +2,12 @@ name: text
 
 on:
   schedule:
-    - cron: '2 0 * * *'  
+    - cron: '2 */8 * * *'  
   workflow_dispatch:  
 
 jobs:
   sign_in:
+    timeout-minutes: 360
     runs-on: ubuntu-latest
 
     steps:
