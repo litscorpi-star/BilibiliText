@@ -1,8 +1,8 @@
-name: text
+name: text1
 
 on:
   schedule:
-    - cron: '2 */6 * * *'  
+    - cron: '52 */6 * * *'  
   workflow_dispatch:  
 
 jobs:
