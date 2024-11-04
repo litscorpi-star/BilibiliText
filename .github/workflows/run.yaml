@@ -2,7 +2,12 @@ name: text
 
 on:
   schedule:
-    - cron: '2 */6 * * *'  
+    - cron: 2 */6 * * *
+  push:
+    branches:
+      - main
+      - litscorpi-star-patch-1
+      
   workflow_dispatch:  
 
 jobs:
