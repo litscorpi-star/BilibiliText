@@ -9,7 +9,7 @@ import os
 
 
 
-bvids = ["BV1cxxQeMEHz","BV1Xhx1ezEad","BV1gZ1BYmEKM","BV1sRsaeXEdr","BV1E6HheYEvC","BV1CfCQYiEk1"]
+bvids = ['BV1zp1TYgEL5', 'BV19iSoYEEmp', 'BV1cxxQeMEHz', 'BV1Xhx1ezEad', 'BV1gZ1BYmEKM', 'BV1sRsaeXEdr', 'BV1E6HheYEvC', 'BV1CfCQYiEk1']
 
 # bvids_bilibili = os.getenv("bvids_bilibili")
 # bvids_bilibili = bvids_bilibili.replace('"','')
